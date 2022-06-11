@@ -5,6 +5,7 @@ description: 自定义频道功能，Staff示例。
 # 频道 Staff
 
 {% hint style="info" %}
+Double-Transfer关闭时
 此功能需要从 BungeeCord 给 Join-Permission 设置的权限才可跨服并且让子服频道接收
 
 这里推荐权限插件 [LuckPerms-Bungee](https://luckperms.net/download)
@@ -13,7 +14,7 @@ description: 自定义频道功能，Staff示例。
 ```
 # 聊天选项
 Options:
-  # BungeeCord 所需权限
+  # 所需权限
   Join-Permission: 'trchat.admin'
   # 聊天接送范围
   Target: ALL

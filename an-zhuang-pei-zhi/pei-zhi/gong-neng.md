@@ -14,7 +14,10 @@ General:
     # 是否启用
     Enabled: true 
     List: 
-    # 需要条件 trchat.admin，exact代表输入的指令必须一模一样（包括大小写）
+    # condition->需要的条件(kether)
+    # exact->命令是否需要一摸一样
+    # cooldown->执行冷却时间(ms)
+    # reflect->跳转命令组(用{}传参,用;分隔)
     - 'arasple{exact: true}{condition: perm *trchat.admin}' 
     - 'ver(sion)?(s)?{condition: perm *trchat.admin}' 
     - 'help(s)?{condition: perm *trchat.admin}' 
@@ -164,3 +167,6 @@ Custom:
       - '&7点击复制!' 
       copy: '{0}'
 ```
+
+
+
