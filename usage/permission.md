@@ -4,6 +4,8 @@ description: 插件权限列表。
 
 # 权限 Permission
 
+### 我们推荐您使用 [LuckPerms](https://luckperms.net/download) 权限插件
+
 > ### 绕过
 
 |         **权限节点**          |                     **权限作用**                     |

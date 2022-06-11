@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "F:\\coding"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"ostream": "cpp",
+			"string_view": "cpp",
+			"*.tcc": "cpp",
+			"string": "cpp",
+			"cmath": "cpp",
+			"*.spec": "python",
+			"cstdlib": "c",
+			"system_error": "c",
+			"typeinfo": "c",
+			"windows.h": "c",
+			"*.rh": "c"
+		}
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch",
+				"type": "go",
+				"request": "launch",
+				"mode": "auto",
+				"program": "${fileDirname}",
+				"env": {},
+				"args": []
+			}
+		]
+	}
+}

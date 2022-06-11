@@ -29,12 +29,12 @@
 
 ## 📚 使用方法
 
-* [命令 Command](ming-ling-quan-xian/ming-ling-yu-quan-xian/ming-ling-command.md)
-* [颜色](shi-yong-fang-fa/yan-se/README.md)
-  * [普通颜色](shi-yong-fang-fa/yan-se/pu-tong-yan-se.md)
-  * [RGB颜色](shi-yong-fang-fa/yan-se/rgb-yan-se.md)
-  * [渐变颜色](shi-yong-fang-fa/yan-se/jian-bian-yan-se.md)
-* [权限 Permission](ming-ling-quan-xian/ming-ling-yu-quan-xian/quan-xian-permission.md)
+* [命令 Command](usage/command.md)
+* [颜色](usage/yan-se/README.md)
+  * [普通颜色](usage/yan-se/pu-tong-yan-se.md)
+  * [RGB颜色](usage/yan-se/rgb-yan-se.md)
+  * [渐变颜色](usage/yan-se/jian-bian-yan-se.md)
+* [权限 Permission](usage/permission.md)
 
 ## 🎁 其他选项
 
