@@ -1,0 +1,166 @@
+---
+description: 插件功能配置文件。
+---
+
+# 功能
+
+### function.yml
+
+```
+# 一般功能
+General: 
+  # 控制命令模块
+  Command-Controller: 
+    # 是否启用
+    Enabled: true 
+    List: 
+    # 需要条件 trchat.admin，exact代表输入的指令必须一模一样（包括大小写）
+    - 'arasple{exact: true}{condition: perm *trchat.admin}' 
+    - 'ver(sion)?(s)?{condition: perm *trchat.admin}' 
+    - 'help(s)?{condition: perm *trchat.admin}' 
+    - 'shout{cooldown: 3}' 
+  # 物品展示
+  Item-Show:
+    # 是否启用 
+    Enabled: true
+    # 展示冷却 
+    Cooldown: '30s'
+    # 展示格式 
+    Format: '&8[&3{0} &bx{1}&8]'
+    #  是否展示原名
+    Origin-Name: false 
+    #  如果使用展示物品的时候踢人，设置为true即可
+    Compatible: false 
+    # 多个触发展示物品格式
+    Keys: 
+      - "%i%" 
+      - "%i" 
+      - "%item%" 
+      - "%item" 
+      - "[i]" 
+      - "[item]" 
+  # 艾特功能模块
+  Mention: 
+  # 是否启用
+    Enabled: true 
+    # 是否能艾特自己
+    Self-Mention: false 
+    # 艾特信息格式
+    Format: '&r &a@&2{0}&r '
+    # 艾特信息冷却 
+    Cooldown: '30s'
+    # 是否通知玩家，默认true 
+    Notify: true 
+  # 展示玩家自己的背包
+  Inventory-Show:
+    # 是否启用 
+    Enabled: true
+    # 查看玩家背包冷却 
+    Cooldown: '30s' 
+    # 查看玩家的信息
+    Format: "&8[&3{0}'s Inventory&8]"
+    #  展示背包触发格式
+    Keys: 
+    - '[inv]'
+    - '[inventory]'
+
+# 自定义指定聊天内容格式
+Custom:
+  # 示例 —— 网站分享
+  shareUrl: 
+    # 正则,无需修改
+    pattern: '((https|http|ftp|rtsp|mms)?://)[^\s]+' 
+    display: 
+      # 显示格式内容
+      text: '&8[&f&l网站&8]' 
+      # 悬浮框
+      hover: 
+      - '' 
+      - '&3网站: {0}' 
+      - '' 
+      - '&7点击进入!' 
+      - '' - '&8[&c!&8] &7谨防任何诈骗' 
+      # 点击后打开的链接,无需修改
+      url: '{0}'
+
+# 示例 —— QQ 分享
+  shareQQ: 
+    condition: ~ 
+    priority: 100 
+    # 匹配表达式 
+    # 示例模块的表达式部分来自互联网 
+    pattern: 'QQ( )?1-9' 
+    # 变量 {0} 是按下方表达式提取后的内容, 可以不配置此项 
+    text-filter: '1-9' 
+    # 自定义显示 JSON 组件 
+    display: 
+      text: '&8[&3&lQQ&8]' 
+      hover: 
+      - '' 
+      - '&3QQ: &b{0}' 
+      - '' 
+      - '&7这是一个 QQ 账号,' 
+      - '&7你可以点击此项快速打开聊天' 
+      - '' 
+      - '&8[&c!&8] &7请勿进行任何金钱交易' 
+      - '&8[&c!&8] &7交友需谨慎' 
+      url: 'https://wpa.qq.com/msgrd?v=3&uin{0}&site=qq&menu=yes'
+
+# 示例 —— B站视频 分享
+  shareBilibili: 
+    pattern: 'BV( )?.{10}' 
+    text-filter: '.{12}' 
+    # 自定义显示 JSON 组件 
+    display: 
+      text: '&8[&f&lBilibili&8]' 
+      hover: 
+      - '' 
+      - '&7这可能是一个 Bilibili 视频,' 
+      - '&7点击即可访问' 
+      - '' 
+      - '&3BV号: &b{0}' 
+      url: 'https://www.bilibili.com/video/BV{0}'
+
+# 示例 —— 防止玩家暴露、分享真实手机号
+  hidePhoneNumber: 
+    pattern: '((13[0-9])|(14[0-9])|(15[0-9])|(17[0-9])|(18[0-9]))\d{8}' 
+    display: 
+      text: '&8[&c&m-&8]' 
+      hover: 
+      - '&7该内容疑似为手机号码,' 
+      - '&7已自动屏蔽隐藏.' 
+      - '' 
+      - '&8[&c!&8] &7请勿分享任何隐私信息'
+
+# 示例 —— 隐藏身份证
+  hideIDCardNumber: 
+  pattern: '([1-9]\d{5}[12]\d{3}(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])\d{3}[0-9xX])' 
+    display: 
+      text: '&8[&c&m-&8]' 
+      hover: 
+      - '&7该内容疑似为身份证号,' 
+      - '&7已自动屏蔽隐藏.' 
+      - '' 
+      - '&8[&c!&8] &7请勿分享任何隐私信息' 
+      - '&7严重者可能处于禁言/封禁'
+
+# 示例 —— 高亮 IP
+  glowIP: 
+    pattern: '(25[0-5]|2[0-4]\d|[0-1]\d{2}|[1-9]?\d).(25[0-5]|2[0-4]\d|[0-1]\d{2}|[1-9]?\d).(25[0-5]|2[0-4]\d|[0-1]\d{2}|[1-9]?\d).(25[0-5]|2[0-4]\d|[0-1]\d{2}|[1-9]?\d)' 
+    display: 
+      text: '&e&n{0}' 
+      hover: 
+      - '&7这是一个 IP地址' 
+      - '&7点击复制!' 
+      copy: '{0}'
+
+  # 示例 —— 高亮邮箱
+  glowEmail: 
+    pattern: '\w[-\w.+]*@([A-Za-z0-9][-A-Za-z0-9]+.)+[A-Za-z]{2,14}' 
+    display: 
+      text: '&e&n{0}' 
+      hover: 
+      - '&7这是一个邮箱' 
+      - '&7点击复制!' 
+      copy: '{0}'
+```
