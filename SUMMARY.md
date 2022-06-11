@@ -26,8 +26,9 @@
   * [全局 Global](liao-tian-ge-shi/liao-tian-zu-bie/quan-ju-global.md)
   * [私聊 Private](liao-tian-ge-shi/liao-tian-zu-bie/si-liao-private.md)
   * [频道 Staff](liao-tian-ge-shi/liao-tian-zu-bie/pin-dao-staff.md)
-  * [选项 Options](liao-tian-ge-shi/liao-tian-zu-bie/xuan-xiang-options.md)
-  * [绑定 Bindings](liao-tian-ge-shi/liao-tian-zu-bie/bang-ding-bindings.md)
+* [聊天设置](liao-tian-ge-shi/liao-tian-she-zhi/README.md)
+  * [选项 Options](liao-tian-ge-shi/liao-tian-she-zhi/xuan-xiang-options.md)
+  * [绑定 Bindings](liao-tian-ge-shi/liao-tian-she-zhi/bang-ding-bindings.md)
 
 ## 📚 使用方法
 
@@ -43,14 +44,17 @@
   * [🇨🇳 简体中文](qi-ta-xuan-xiang/yu-yan/jian-ti-zhong-wen.md)
   * [⚠ Submit language](qi-ta-xuan-xiang/yu-yan/submit-language.md)
 
-## ⛏ 开发文档
-
+## ☑ 问题
 * [已知问题](kai-fa-wen-dang/yi-zhi-wen-ti/README.md)
   * [1.8版本加载错误](kai-fa-wen-dang/yi-zhi-wen-ti/1.8-ban-ben-jia-zai-cuo-wu.md)
+  * [1.8版本无法跨服](kai-fa-wen-dang/yi-zhi-wen-ti/1.8-ban-ben-wu-fa-kua-fu.md)
+  * [聊天重复](kai-fa-wen-dang/yi-zhi-wen-ti/liao-tian-chong-fu.md)
 * [使用问题](kai-fa-wen-dang/shi-yong-wen-ti/README.md)
   * [提交问题](kai-fa-wen-dang/shi-yong-wen-ti/ti-jiao-wen-ti.md)
   * [功能建议](kai-fa-wen-dang/shi-yong-wen-ti/gong-neng-jian-yi.md)
-  * [拉取请求](kai-fa-wen-dang/shi-yong-wen-ti/la-qu-qing-qiu.md)
+
+## ⛏ 开发
+* [提交请求](kai-fa-wen-dang/shi-yong-wen-ti/ti-jiao-qing-qiu.md)
 * [API 使用](kai-fa-wen-dang/api-shi-yong.md)
 
 ## 📦 归档

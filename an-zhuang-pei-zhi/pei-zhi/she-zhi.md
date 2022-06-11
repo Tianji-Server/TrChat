@@ -57,7 +57,7 @@ Chat:
   # 最大聊天长度
   Length-Limit: 100
 
-# 颜色限制
+# 开启颜色转换
 Color:
   # 聊天颜色
   Chat: false
