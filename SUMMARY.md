@@ -1,6 +1,6 @@
 # Table of contents
 
-* [😅 首页](README.md)
+* [首页](README.md)
 * [🔗 相关链接](xiang-guan-lian-jie.md)
 
 ## ⚙ 安装 & 配置
@@ -45,6 +45,7 @@
   * [⚠ Submit language](qi-ta-xuan-xiang/yu-yan/submit-language.md)
 
 ## ☑ 问题
+
 * [已知问题](kai-fa-wen-dang/yi-zhi-wen-ti/README.md)
   * [1.8版本加载错误](kai-fa-wen-dang/yi-zhi-wen-ti/1.8-ban-ben-jia-zai-cuo-wu.md)
   * [1.8版本无法跨服](kai-fa-wen-dang/yi-zhi-wen-ti/1.8-ban-ben-wu-fa-kua-fu.md)
@@ -54,6 +55,7 @@
   * [功能建议](kai-fa-wen-dang/shi-yong-wen-ti/gong-neng-jian-yi.md)
 
 ## ⛏ 开发
+
 * [提交请求](kai-fa-wen-dang/shi-yong-wen-ti/ti-jiao-qing-qiu.md)
 * [API 使用](kai-fa-wen-dang/api-shi-yong.md)
 
