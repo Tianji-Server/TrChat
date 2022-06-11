@@ -18,6 +18,10 @@ coverY: 85.24229074889867
 稳定版本（不建议使用）
 {% endhint %}
 
+{% hint style="danger" %}
+一切以最新构建版本为主,稳定版本小于构建版本将无视
+{% endhint %}
+
 ### GitHub Releases
 
 {% embed url="https://github.com/FlickerProjects/TrChat/releases" %}
@@ -36,9 +40,9 @@ coverY: 85.24229074889867
 
 <summary>2022年我的世界Spigot插件获得金奖</summary>
 
-![](../.gitbook/assets/szpeHjS6dcVx3KE.png)
+<img src="../.gitbook/assets/szpeHjS6dcVx3KE.png" alt="" data-size="original">
 
-#### 下载证书  [\[点击下载\]](https://s2.loli.net/2022/04/14/szpeHjS6dcVx3KE.png)
+**下载证书** [**\[点击下载\]**](https://s2.loli.net/2022/04/14/szpeHjS6dcVx3KE.png)
 
 </details>
 
