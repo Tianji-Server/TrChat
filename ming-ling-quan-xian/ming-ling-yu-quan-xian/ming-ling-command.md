@@ -81,3 +81,11 @@ description: 插件命令列表。
 
 * 名称: `spy`
 * 权限: `trchat.admin`
+
+### 隐身
+
+> 开启后玩家无法用命令补全, 也无法被@
+
+* 名称: `vanish`
+* 权限: `trchat.admin`
+
