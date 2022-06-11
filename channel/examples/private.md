@@ -4,7 +4,7 @@ description: 私聊频道，可以不需要频繁使用指令私聊。
 
 # 私聊 Private
 
-```
+```yaml
 # 聊天选项
 Options:
   # 私聊权限

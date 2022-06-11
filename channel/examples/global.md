@@ -4,7 +4,7 @@ description: 全局聊天，别名跨服聊天。
 
 # 全局 Global
 
-```
+```yaml
 # 聊天选项
 Options:
   # 玩家需要 trchat.global 权限才能使用全局频道

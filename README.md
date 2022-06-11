@@ -1,5 +1,5 @@
 ---
-description: 欢迎查阅 TrChat 公开文档。
+description: 欢迎查阅 TrChat 公开文档
 coverY: -270.66079295154185
 ---
 
@@ -13,7 +13,7 @@ TrChat 是基于 [TabooLib](https://docs.tabooproject.org/) 开发，发布于 2
 
 从 Arasple 的 1.71-all 版本到现在的 2.X 版本
 
-修复了已知 BUG 的同时，还更进了版本支持,从本来只支持到 1.16.X 到现在的 1.18.X
+修复了已知 BUG 的同时，还更进了版本支持,从本来只支持到 1.16.X 到现在的 1.19.X
 
 这些都是在维护者 [ItsFlicker](https://wpa.qq.com/msgrd?v=3\&uin=1812496278\&site=qq\&menu=yes) 的技术上更进的
 

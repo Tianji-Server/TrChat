@@ -12,13 +12,13 @@ TrChat 插件目录索引
 
 <summary><a href="../liao-tian-ge-shi/liao-tian-zu-bie/">channels</a></summary>
 
-[Global.yml](../liao-tian-ge-shi/liao-tian-zu-bie/quan-ju-global.md)
+[Global.yml](../channel/examples/global.md)
 
-[Normal.yml](../liao-tian-ge-shi/liao-tian-zu-bie/mo-ren-normal.md)
+[Normal.yml](../channel/examples/normal.md)
 
-[Private.yml](../liao-tian-ge-shi/liao-tian-zu-bie/si-liao-private.md)
+[Private.yml](../channel/examples/private.md)
 
-[Staff.yml](../liao-tian-ge-shi/liao-tian-zu-bie/pin-dao-staff.md)
+[Staff.yml](../channel/examples/staff.md)
 
 </details>
 
@@ -36,7 +36,7 @@ TrChat 插件目录索引
 
 <summary><a href="pei-zhi/guo-lv-qi.md">filter.yml</a></summary>
 
-脏话过滤器 [filter.yml](pei-zhi/guo-lv-qi.md#filter.yml)
+脏话过滤器 [filter.yml](pei-zhi/guo-lv-qi.md#filteryml)
 
 </details>
 
@@ -44,7 +44,7 @@ TrChat 插件目录索引
 
 <summary><a href="pei-zhi/gong-neng.md">function.yml</a></summary>
 
-物品展示等各种功能 [function.yml](pei-zhi/gong-neng.md#function.yml)
+物品展示等各种功能 [function.yml](pei-zhi/gong-neng.md#functionyml)
 
 </details>
 
@@ -52,6 +52,6 @@ TrChat 插件目录索引
 
 <summary><a href="pei-zhi/she-zhi.md">setting.yml</a></summary>
 
-插件内容设置 [settings.yml](pei-zhi/she-zhi.md#settings.yml)
+插件内容设置 [settings.yml](pei-zhi/she-zhi.md#settingsyml)
 
 </details>

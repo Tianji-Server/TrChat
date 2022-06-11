@@ -7,35 +7,34 @@
 
 * [下载](an-zhuang-pei-zhi/xia-zai.md)
 * [安装](an-zhuang-pei-zhi/an-zhuang.md)
-* [索引](an-zhuang-pei-zhi/suo-yin.md)
+* [目录索引](an-zhuang-pei-zhi/suo-yin.md)
 * [配置](an-zhuang-pei-zhi/pei-zhi/README.md)
   * [设置](an-zhuang-pei-zhi/pei-zhi/she-zhi.md)
   * [功能](an-zhuang-pei-zhi/pei-zhi/gong-neng.md)
   * [过滤器](an-zhuang-pei-zhi/pei-zhi/guo-lv-qi.md)
 
-## 🔒 命令 & 权限
+## 💬 聊天频道
 
-* [命令与权限](ming-ling-quan-xian/ming-ling-yu-quan-xian/README.md)
-  * [命令 Command](ming-ling-quan-xian/ming-ling-yu-quan-xian/ming-ling-command.md)
-  * [权限 Permission](ming-ling-quan-xian/ming-ling-yu-quan-xian/quan-xian-permission.md)
+* [创建](channel/create.md)
+* [配置](channel/configuration/README.md)
+  * [选项 Options](channel/configuration/options.md)
+  * [绑定 Bindings](channel/configuration/bindings.md)
+* [格式](channel/format/README.md)
+* [默认频道](channel/examples/README.md)
+  * [默认 Normal](channel/examples/normal.md)
+  * [全局 Global](channel/examples/global.md)
+  * [私聊 Private](channel/examples/private.md)
+  * [频道 Staff](channel/examples/staff.md)
 
-## 💬 聊天格式
-
-* [聊天组别](liao-tian-ge-shi/liao-tian-zu-bie/README.md)
-  * [默认 Normal](liao-tian-ge-shi/liao-tian-zu-bie/mo-ren-normal.md)
-  * [全局 Global](liao-tian-ge-shi/liao-tian-zu-bie/quan-ju-global.md)
-  * [私聊 Private](liao-tian-ge-shi/liao-tian-zu-bie/si-liao-private.md)
-  * [频道 Staff](liao-tian-ge-shi/liao-tian-zu-bie/pin-dao-staff.md)
-* [聊天设置](liao-tian-ge-shi/liao-tian-she-zhi/README.md)
-  * [选项 Options](liao-tian-ge-shi/liao-tian-she-zhi/xuan-xiang-options.md)
-  * [绑定 Bindings](liao-tian-ge-shi/liao-tian-she-zhi/bang-ding-bindings.md)
 
 ## 📚 使用方法
 
+* [命令 Command](ming-ling-quan-xian/ming-ling-yu-quan-xian/ming-ling-command.md)
 * [颜色](shi-yong-fang-fa/yan-se/README.md)
   * [普通颜色](shi-yong-fang-fa/yan-se/pu-tong-yan-se.md)
   * [RGB颜色](shi-yong-fang-fa/yan-se/rgb-yan-se.md)
   * [渐变颜色](shi-yong-fang-fa/yan-se/jian-bian-yan-se.md)
+* [权限 Permission](ming-ling-quan-xian/ming-ling-yu-quan-xian/quan-xian-permission.md)
 
 ## 🎁 其他选项
 
@@ -55,7 +54,7 @@
 
 ## ⛏ 开发
 * [提交请求](kai-fa-wen-dang/shi-yong-wen-ti/ti-jiao-qing-qiu.md)
-* [API 使用](kai-fa-wen-dang/api-shi-yong.md)
+* [API](kai-fa-wen-dang/api-shi-yong.md)
 
 ## 📦 归档
 

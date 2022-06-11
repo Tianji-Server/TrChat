@@ -4,7 +4,7 @@ description: 默认聊天格式。
 
 # 默认 Normal
 
-```
+```yaml
 # 聊天选项
 Options:
   # 聊天范围，ALL表示所有地方都可以看到

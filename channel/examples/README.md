@@ -1,9 +1,9 @@
 ---
-description: 聊天频道组别。
+description: 聊天频道
 coverY: 0
 ---
 
-# 聊天组别
+# 默认聊天频道
 
 {% hint style="success" %}
 此板块编辑完毕

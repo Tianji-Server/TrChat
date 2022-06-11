@@ -11,7 +11,7 @@ Double-Transfer关闭时
 这里推荐权限插件 [LuckPerms-Bungee](https://luckperms.net/download)
 {% endhint %}
 
-```
+```yaml
 # 聊天选项
 Options:
   # 所需权限
