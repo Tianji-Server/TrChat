@@ -6,7 +6,7 @@ description: 插件设置配置文件。
 
 ### settings.yml
 
-```
+```yaml
 # 选项
 Options:
   # 记录Normal聊天格式到plugins/TrChat/logs目录下

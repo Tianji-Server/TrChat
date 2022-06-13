@@ -24,7 +24,7 @@ description: English language support.
 {% endtab %}
 {% endtabs %}
 
-```
+```yaml
 Plugin-Loading:
   - '&r'
   - '&7Loading &3Tr&bChat&7... &8{0}'

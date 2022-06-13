@@ -5,13 +5,13 @@
 
 ## ⚙ 安装 & 配置
 
-* [下载](an-zhuang-pei-zhi/xia-zai.md)
-* [安装](an-zhuang-pei-zhi/an-zhuang.md)
-* [目录索引](an-zhuang-pei-zhi/suo-yin.md)
-* [配置](an-zhuang-pei-zhi/pei-zhi/README.md)
-  * [设置](an-zhuang-pei-zhi/pei-zhi/she-zhi.md)
-  * [功能](an-zhuang-pei-zhi/pei-zhi/gong-neng.md)
-  * [过滤器](an-zhuang-pei-zhi/pei-zhi/guo-lv-qi.md)
+* [下载](install/xia-zai.md)
+* [安装](install/an-zhuang.md)
+* [目录索引](install/suo-yin.md)
+* [配置](install/pei-zhi/README.md)
+  * [设置](install/pei-zhi/she-zhi.md)
+  * [功能](install/pei-zhi/gong-neng.md)
+  * [过滤器](install/pei-zhi/guo-lv-qi.md)
 
 ## 💬 聊天频道
 
@@ -45,25 +45,25 @@
 
 ## ☑ 问题
 
-* [已知问题](kai-fa-wen-dang/yi-zhi-wen-ti/README.md)
-  * [1.8版本加载错误](kai-fa-wen-dang/yi-zhi-wen-ti/1.8-ban-ben-jia-zai-cuo-wu.md)
-  * [1.8版本无法跨服](kai-fa-wen-dang/yi-zhi-wen-ti/1.8-ban-ben-wu-fa-kua-fu.md)
-  * [聊天重复](kai-fa-wen-dang/yi-zhi-wen-ti/liao-tian-chong-fu.md)
-* [使用问题](kai-fa-wen-dang/shi-yong-wen-ti/README.md)
-  * [提交问题](kai-fa-wen-dang/shi-yong-wen-ti/ti-jiao-wen-ti.md)
-  * [功能建议](kai-fa-wen-dang/shi-yong-wen-ti/gong-neng-jian-yi.md)
+* [已知问题](develop/yi-zhi-wen-ti/README.md)
+  * [1.8版本加载错误](develop/yi-zhi-wen-ti/1.8-ban-ben-jia-zai-cuo-wu.md)
+  * [1.8版本无法跨服](develop/yi-zhi-wen-ti/1.8-ban-ben-wu-fa-kua-fu.md)
+  * [聊天重复](develop/yi-zhi-wen-ti/liao-tian-chong-fu.md)
+* [使用问题](develop/shi-yong-wen-ti/README.md)
+  * [提交问题](develop/shi-yong-wen-ti/ti-jiao-wen-ti.md)
+  * [功能建议](develop/shi-yong-wen-ti/gong-neng-jian-yi.md)
 
 ## ⛏ 开发
 
-* [提交请求](kai-fa-wen-dang/shi-yong-wen-ti/ti-jiao-qing-qiu.md)
-* [API](kai-fa-wen-dang/api-shi-yong.md)
+* [提交请求](develop/shi-yong-wen-ti/ti-jiao-qing-qiu.md)
+* [API](develop/api-shi-yong.md)
 
 ## 📦 归档
 
-* [TrChat 1.9 文档](gui-dang/trchat-1.9-wen-dang/README.md)
-  * [主页](gui-dang/trchat-1.9-wen-dang/zhu-ye.md)
-  * [命令](gui-dang/trchat-1.9-wen-dang/ming-ling.md)
-  * [开始](gui-dang/trchat-1.9-wen-dang/kai-shi.md)
-  * [权限](gui-dang/trchat-1.9-wen-dang/quan-xian.md)
-  * [配置](gui-dang/trchat-1.9-wen-dang/pei-zhi.md)
-* [👮♂ 通缉令](gui-dang/tong-ji-ling.md)
+* [TrChat 1.9 文档](archive/trchat-1.9-wen-dang/README.md)
+  * [主页](archive/trchat-1.9-wen-dang/zhu-ye.md)
+  * [命令](archive/trchat-1.9-wen-dang/ming-ling.md)
+  * [开始](archive/trchat-1.9-wen-dang/kai-shi.md)
+  * [权限](archive/trchat-1.9-wen-dang/quan-xian.md)
+  * [配置](archive/trchat-1.9-wen-dang/pei-zhi.md)
+* [👮♂ 通缉令](archive/tong-ji-ling.md)

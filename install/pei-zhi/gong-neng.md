@@ -6,7 +6,7 @@ description: 插件功能配置文件。
 
 ### function.yml
 
-```
+```yaml
 # 一般功能
 General: 
   # 控制命令模块

@@ -24,7 +24,7 @@ description: 简体中文语言支持。
 {% endtab %}
 {% endtabs %}
 
-```
+```yaml
 Plugin-Loading:
   - '&r'
   - '&7正在加载 &3Tr&bChat&7... &8{0}'
