@@ -4,10 +4,6 @@ description: 插件命令列表。
 
 # 命令 Command
 
-{% hint style="warning" %}
-#### <mark style="color:orange;">此页面可能含有过时以及不确定因素</mark>
-{% endhint %}
-
 ### 主命令
 
 > 插件主命令

@@ -26,9 +26,9 @@ TrChat 插件目录索引
 
 <summary><a href="../qi-ta-xuan-xiang/yu-yan/">lang</a></summary>
 
-[en\_US.yml](../qi-ta-xuan-xiang/yu-yan/english.md)
+[en\_US.yml](../appendix/yu-yan/english.md)
 
-[zh\_CN.yml](../qi-ta-xuan-xiang/yu-yan/jian-ti-zhong-wen.md)
+[zh\_CN.yml](../appendix/yu-yan/jian-ti-zhong-wen.md)
 
 </details>
 

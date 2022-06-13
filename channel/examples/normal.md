@@ -64,4 +64,8 @@ Formats:
         # 聊天信息和玩家格式中间的内容
           part-before-msg: 
             text: '&7: '
+    # 聊天后缀格式
+    suffix:
+      example:
+        text: ''
 ```

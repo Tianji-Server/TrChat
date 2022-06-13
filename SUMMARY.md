@@ -40,10 +40,10 @@
 
 ## 🎁 其他选项
 
-* [🌎 语言](qi-ta-xuan-xiang/yu-yan/README.md)
-  * [🇺🇸 English](qi-ta-xuan-xiang/yu-yan/english.md)
-  * [🇨🇳 简体中文](qi-ta-xuan-xiang/yu-yan/jian-ti-zhong-wen.md)
-  * [⚠ Submit language](qi-ta-xuan-xiang/yu-yan/submit-language.md)
+* [🌎 语言](appendix/yu-yan/README.md)
+  * [🇺🇸 English](appendix/yu-yan/english.md)
+  * [🇨🇳 简体中文](appendix/yu-yan/jian-ti-zhong-wen.md)
+  * [⚠ Submit language](appendix/yu-yan/submit-language.md)
 
 ## ☑ 问题
 
