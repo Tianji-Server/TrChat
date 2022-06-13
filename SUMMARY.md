@@ -20,6 +20,8 @@
   * [选项 Options](channel/configuration/options.md)
   * [绑定 Bindings](channel/configuration/bindings.md)
 * [格式](channel/format/README.md)
+  * [组成](channel/format/json.md)
+  * [分组](channel/format/group.md)
 * [默认频道](channel/examples/README.md)
   * [默认 Normal](channel/examples/normal.md)
   * [全局 Global](channel/examples/global.md)

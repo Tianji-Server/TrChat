@@ -32,7 +32,7 @@ coverY: 85.24229074889867
 官方认证插件获取人物
 {% endhint %}
 
-![](../.gitbook/assets/图怪兽\_ff5f7af88d460afd2913d6122ac98642\_72706.png)
+![](../.gitbook/assets/图怪兽.png)
 
 ### 获得荣誉
 
