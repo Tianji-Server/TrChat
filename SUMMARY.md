@@ -17,8 +17,8 @@
 
 * [创建](channel/create.md)
 * [配置](channel/configuration/README.md)
-  * [选项 Options](channel/configuration/options.md)
-  * [绑定 Bindings](channel/configuration/bindings.md)
+  * [选项](channel/configuration/options.md)
+  * [绑定](channel/configuration/bindings.md)
 * [格式](channel/format/README.md)
   * [组成](channel/format/json.md)
   * [分组](channel/format/group.md)
@@ -31,12 +31,15 @@
 
 ## 📚 使用方法
 
-* [命令 Command](usage/command.md)
 * [颜色](usage/yan-se/README.md)
   * [普通颜色](usage/yan-se/pu-tong-yan-se.md)
   * [RGB颜色](usage/yan-se/rgb-yan-se.md)
   * [渐变颜色](usage/yan-se/jian-bian-yan-se.md)
-* [权限 Permission](usage/permission.md)
+  * [彩虹颜色]()
+  * 
+* [命令](usage/command.md)
+* [权限](usage/permission.md)
+* [聊天预览](usage/chatpreview.md)
 
 ## 🎁 其他选项
 
@@ -57,8 +60,8 @@
 
 ## ⛏ 开发
 
-* [提交请求](develop/shi-yong-wen-ti/ti-jiao-qing-qiu.md)
 * [API](develop/api-shi-yong.md)
+* [提交请求](develop/shi-yong-wen-ti/ti-jiao-qing-qiu.md)
 
 ## 📦 归档
 
