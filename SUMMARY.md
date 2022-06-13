@@ -35,8 +35,6 @@
   * [普通颜色](usage/yan-se/pu-tong-yan-se.md)
   * [RGB颜色](usage/yan-se/rgb-yan-se.md)
   * [渐变颜色](usage/yan-se/jian-bian-yan-se.md)
-  * [彩虹颜色]()
-  * 
 * [命令](usage/command.md)
 * [权限](usage/permission.md)
 * [聊天预览](usage/chatpreview.md)
