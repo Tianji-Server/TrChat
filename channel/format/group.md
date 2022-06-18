@@ -11,7 +11,24 @@ Formats(Sender/Receiver)下的并列
 
 适用于大范围显示控制
 
----
+```
+# 即整个格式的改变
+Formats:
+  # 条件: 金币大于等于100即显示,不写优先级(priority)即从上到下顺序走
+  - condition: check papi %vault_eco_balance% >= 100
+    priority: 99
+    suffix:
+      example:
+        text: ''
+  # 部分内容省略,因不是该板块索要说明的内容,只需要知道这里是讲condition的
+  - condition: ~
+    priority: 100
+    suffix:
+      example:
+        text: ''
+```
+
+***
 
 ## 块并列
 
@@ -42,7 +59,7 @@ player:
         &r
 ```
 
----
+***
 
 ## 条并列
 
