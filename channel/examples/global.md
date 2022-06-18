@@ -46,4 +46,12 @@ Formats:
       default-color: 'f'
       # 聊天悬浮框
       hover: '&7Date: %server_time_HH:mm:ss%'
+
+# 从控制台发出的信息格式,不支持使用变量!
+Console:
+  - prefix:
+      server:
+        text: '&eServer&8: '
+    msg:
+      default-color: 'l'
 ```

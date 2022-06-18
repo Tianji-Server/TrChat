@@ -5,8 +5,7 @@ description: 自定义频道功能，Staff示例。
 # 频道 Staff
 
 {% hint style="info" %}
-Double-Transfer关闭时
-此功能需要从 BungeeCord 给 Join-Permission 设置的权限才可跨服并且让子服频道接收
+Double-Transfer关闭时 此功能需要从 BungeeCord 给 Join-Permission 设置的权限才可跨服并且让子服频道接收
 
 这里推荐权限插件 [LuckPerms-Bungee](https://luckperms.net/download)
 {% endhint %}
@@ -22,6 +21,8 @@ Options:
   Proxy: true
   # 自动加入频道
   Auto-Join: true
+  # 多重转移
+  Double-Transfer: true
 
 # 绑定频道命令
 Bindings:
