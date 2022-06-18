@@ -26,13 +26,15 @@ General:
   Item-Show:
     # 是否启用 
     Enabled: true
+    # 所需的权限
+    Permission: 'null'
     # 展示冷却 
     Cooldown: '30s'
     # 展示格式 
     Format: '&8[&3{0} &bx{1}&8]'
-    #  是否展示原名
+    # 是否展示原名
     Origin-Name: false 
-    #  如果使用展示物品的时候踢人，设置为true即可
+    # 如果使用展示物品的时候踢人，设置为true即可
     Compatible: false 
     # 多个触发展示物品格式
     Keys: 
@@ -47,7 +49,9 @@ General:
   # 是否启用
     Enabled: true 
     # 是否能艾特自己
-    Self-Mention: false 
+    Self-Mention: false
+    # 所需权限
+    Permission: 'null' 
     # 艾特信息格式
     Format: '&r &a@&2{0}&r '
     # 艾特信息冷却 
@@ -58,6 +62,8 @@ General:
   Inventory-Show:
     # 是否启用 
     Enabled: true
+    # 所需权限
+    Permission: 'null'
     # 查看玩家背包冷却 
     Cooldown: '30s' 
     # 查看玩家的信息
@@ -66,6 +72,20 @@ General:
     Keys: 
     - '[inv]'
     - '[inventory]'
+  # 展示自己的末影箱
+  EnderChest-Show:
+    # 是否启用 
+    Enabled: true
+    # 所需权限
+    Permission: 'null'
+    # 查看末影箱冷却 
+    Cooldown: '30s'
+    # 查看末影箱的信息
+    Format: "&8[&3{0}'s Ender Chest&8]"
+    #  展示末影箱触发格式
+    Keys:
+      - '[ender]'
+      - '[enderchest]'
 
 # 自定义指定聊天内容格式
 Custom:
@@ -167,6 +187,3 @@ Custom:
       - '&7点击复制!' 
       copy: '{0}'
 ```
-
-
-
