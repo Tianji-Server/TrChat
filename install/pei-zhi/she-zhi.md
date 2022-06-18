@@ -17,6 +17,8 @@ Options:
   Depend-Expansions: ['player', 'server', 'vault']
   # 玩家是否可以用tab补全,默认false,true即禁止
   Prevent-Tab-Complete: false
+  # 解决一些冲突问题,将插件名写入这里,即可解决一些插件优先级导致的问题
+  ChatEvent-Hooks: ['PlayMoreSounds', 'ChatBubbles', 'QuestCreator']
 
 # 数据库
 Database:
