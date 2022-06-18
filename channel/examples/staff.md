@@ -21,7 +21,7 @@ Options:
   Proxy: true
   # 自动加入频道
   Auto-Join: true
-  # 多重转移
+  # 二次转发
   Double-Transfer: true
 
 # 绑定频道命令
